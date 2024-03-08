@@ -47,4 +47,16 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 ```
+<br>
+
+## Hasil Training <br>
+Karena yang kita prediksi adalah suatu penyakit. Dan yang kita hindari adalah pasien yang di prediksi sehat tapi aktualnya sakit Kanker __(False Negative)__, maka kita akan fokus menggunakan **Sensitivitas** atau **Recall**. <br>
+
+
+![image](https://github.com/Ranvier89/Breast_Cancer_Predictive/assets/153417873/5b0a86ea-0c91-4223-9233-de0cb0b2d831)
+
+Model yang terbaik berdasarkan Scoring : **Recall** adalah **KNN Model**.Dengan Recall sebesar 0.84! <br>
+
+Setelah mendapatkan prediksi yang spesifik berdasarkan Scoring Recall. Besar harapan kita bisa mendeteksi sedini mungkin gejala Kanker di setiap pasien.<br>
+Sehingga semua para penderita Kanker bisa mendapatkan penanganan yang lebih baik.
 
